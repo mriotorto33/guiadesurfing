@@ -1,6 +1,6 @@
 import { Spot, Direccion, Marea } from '../types/scoring';
 
-const API_URL = process.env.NEXT_PUBLIC_WP_GRAPHQL_URL || 'https://nuevo.guiadesurfing.com/graphql';
+const API_URL = process.env.NEXT_PUBLIC_WP_GRAPHQL_URL || 'https://new.guiadesurfing.com/graphql';
 
 export async function fetchAPI(query: string, { variables }: { variables?: any } = {}) {
   const headers = { 'Content-Type': 'application/json' };
